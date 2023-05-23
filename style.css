@@ -1,3 +1,17 @@
+/* #demo {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: #fff;
+  overflow: auto;
+  animation: go_and_come 2.5s linear infinite alternate-reverse;
+}
+
+@keyframes go_and_come {
+  to {
+    transform: translateX(calc(50vw - 50%));
+  }
+} */
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
 
 :root {
